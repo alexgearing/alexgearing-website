@@ -1,0 +1,11 @@
+html {
+  font-size: var(--em--default);
+}
+
+body {
+  color: var(--color--text);
+  font-family: var(--font-family--base);
+  font-weight: var(--font-weight--base);
+  font-size: var(--font-size--b);
+  line-height: var(--line-height--body);
+}

@@ -1,0 +1,77 @@
+
+// -------------------------------------------------------------------------- //
+// CSS variables
+// -------------------------------------------------------------------------- //
+
+:root {
+  // -------------------------------------------------------------------------- //
+  // Colors
+  // -------------------------------------------------------------------------- //
+  --color--primary: ;
+  --color--secondary: ;
+  --color--positive: ;
+  --color--negative: ;
+  --color--info: ;
+
+  --color--text: #2c3e50;
+  --color--heading: ;
+  --color--title: ;
+
+  // -------------------------------------------------------------------------- //
+  // Sizes
+  // -------------------------------------------------------------------------- //
+
+  --em--default: 14px;
+
+  // Rem & relative sizes.
+  $rem-map: (
+    xxxxs: .14286rem,  // 2px
+    xxxs:  .28571rem,  // 4px
+    xxs:   .57143rem,  // 8px
+    xs:    .71429rem,  // 10px
+    s:     .85714rem,  // 12px.
+    b:     1rem,       // 14px.
+    m:     1.28571rem, // 18px
+    l:     1.5rem,     // 21px
+    xl:    2rem,       // 28px
+    xxl:   2.5rem,     // 35px
+    xxxl:  3rem,       // 42px
+    xxxxl: 4rem,       // 56px
+  );
+
+  // Sizing to root.
+  @each $size, $rem in $rem-map {
+    --rem--#{$size}: #{$rem};
+  }
+
+  // ------------------------------------------------------------------------ //
+  // Typography
+  // ------------------------------------------------------------------------ //
+
+  // Font families by style & usage.
+  --font-family--base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-family--heading: var(--font-family--base);
+  --font-family--title: "Acta Deck", "Times New Roman", serif;
+  --font-family--monospace: SFMono-Regular, Hack, Monaco, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+  // Font size.
+  --font-size--xxs:   var(--rem--xxs);
+  --font-size--xs:    var(--rem--xs);
+  --font-size--s:     var(--rem--s);
+  --font-size--b:     var(--rem--b);
+  --font-size--m:     var(--rem--m);
+  --font-size--l:     var(--rem--l);
+  --font-size--xl:    var(--rem--xl);
+  --font-size--xxl:   var(--rem--xxl);
+  --font-size--xxxl:  var(--rem--xxxl);
+  --font-size--xxxxl: var(--rem--xxxxl);
+
+  // ------------------------------------------------------------------------ //
+  // Borders
+  // ------------------------------------------------------------------------ //
+
+  --border-radius--b: 6px;
+  --border-width--input: var(--border-width--b);
+  --border-width--button: var(--border-width--b);
+
+}
