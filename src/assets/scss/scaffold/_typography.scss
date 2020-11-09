@@ -9,3 +9,12 @@ body {
   font-size: var(--font-size--b);
   line-height: var(--line-height--body);
 }
+
+a {
+  color: var(--color--link);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color--link--d);
+  }
+}
