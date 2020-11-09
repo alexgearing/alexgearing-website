@@ -1,23 +1,18 @@
 <template>
-  <div class="home">
-    <img
-      alt="Vue logo"
-      src="../assets/logo.png"
-    >
-    <animated-logo />
-  </div>
+  <nav-bar />
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-import AnimatedLogo from '@/components/AnimatedLogo.vue'
+import NavBar from '@/components/ui/NavBar'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
-    AnimatedLogo,
+    NavBar,
   },
 }
 </script>
+
+<style>
+
+</style>
