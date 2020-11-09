@@ -7,11 +7,13 @@
   // -------------------------------------------------------------------------- //
   // Colors
   // -------------------------------------------------------------------------- //
-  --color--primary: ;
-  --color--secondary: ;
+  --color--primary: #41B4E4;
+  --color--secondary: #F9D5E0;
   --color--positive: ;
   --color--negative: ;
-  --color--info: ;
+  --color--info: #41B4E4;
+
+  --color--link: var(--color--info);
 
   --color--text: #2c3e50;
   --color--heading: ;
@@ -66,6 +68,18 @@
   --font-size--xxxl:  var(--rem--xxxl);
   --font-size--xxxxl: var(--rem--xxxxl);
 
+  // Font weights.
+  --font-weight--light:   300;
+  --font-weight--regular: 400;
+  --font-weight--medium:  500;
+  --font-weight--bold:    700;
+  --font-weight--heavy:   900;
+
+  --font-weight--base:    var(--font-weight--regular);
+  --font-weight--heading: var(--font-weight--bold);
+  --font-weight--title:   var(--font-weight--heavy);
+  --font-weight--button:  var(--font-weight--heading);
+
   // ------------------------------------------------------------------------ //
   // Borders
   // ------------------------------------------------------------------------ //
@@ -77,7 +91,6 @@
   // -------------------------------------------------------------------------- //
   // Include media breakpoints
   // -------------------------------------------------------------------------- //
-
   $breakpoints: (
     phone:      320px,
     tablet:     768px,
