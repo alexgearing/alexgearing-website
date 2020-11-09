@@ -1,3 +1,13 @@
 {
-  "message": "hello i18n !!"
+  "message": "hello i18n !!",
+  "components": {
+    "navBar": {
+      "links": {
+        "about": "About me",
+        "experience": "Experience",
+        "placeholder": "Placeholer"
+      },
+      "languageSwitcher": "Language switcher..."
+    }
+  }
 }

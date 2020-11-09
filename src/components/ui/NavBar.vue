@@ -10,19 +10,19 @@
         class="nav-bar__item"
         href=""
       >
-        About me
+        {{ $t('components.navBar.links.about') }}
       </a>
       <a
         class="nav-bar__item"
         href=""
       >
-        Experience
+        {{ $t('components.navBar.links.experience') }}
       </a>
       <a
         class="nav-bar__item"
         href=""
       >
-        Something else
+        {{ $t('components.navBar.links.placeholder') }}
       </a>
     </div>
     <div class="nav-bar__section">
@@ -30,7 +30,7 @@
         class="nav-bar__item"
         href=""
       >
-        Language switcher...
+        {{ $t('components.navBar.languageSwitcher') }}
       </a>
     </div>
   </header>
