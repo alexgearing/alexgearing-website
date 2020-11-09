@@ -74,4 +74,13 @@
   --border-width--input: var(--border-width--b);
   --border-width--button: var(--border-width--b);
 
+  // -------------------------------------------------------------------------- //
+  // Include media breakpoints
+  // -------------------------------------------------------------------------- //
+
+  $breakpoints: (
+    phone:      320px,
+    tablet:     768px,
+    desktop:    1024px,
+  );
 }
