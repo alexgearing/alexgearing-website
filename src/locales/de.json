@@ -1,0 +1,23 @@
+{
+  "components": {
+    "navBar": {
+      "links": {
+        "about": "About me",
+        "experience": "Experience",
+        "placeholder": "Placeholer"
+      },
+      "languageSwitcher": "Language switcher..."
+    }
+  },
+  "sections": {
+    "hero": {
+      "greeting": "Hallo!",
+      "iAm": "Ich bin",
+      "byline": "I am a Product Manager with a background in web design and software engineering.",
+      "actions": {
+        "contact": "Get in touch",
+        "downloadCV": "Download my CV"
+      }
+    }
+  }
+}
