@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="945px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9FDFF" offset="0%"></stop>
+            <stop stop-color="#F2FBFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Wesbite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M835.597766,611 C1043.5844,516.540585 1245.05181,312.873918 1440,0 L1440,945 L9.09494702e-13,945 L9.09494702e-13,788.25513 C349.078546,764.544459 627.611135,705.459415 835.597766,611 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

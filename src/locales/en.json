@@ -1,5 +1,4 @@
 {
-  "message": "hello i18n !!",
   "components": {
     "navBar": {
       "links": {
@@ -8,6 +7,17 @@
         "placeholder": "Placeholer"
       },
       "languageSwitcher": "Language switcher..."
+    }
+  },
+  "sections": {
+    "hero": {
+      "greeting": "Hello!",
+      "iAm": "I'm",
+      "byline": "I am a Product Manager with a background in web design and software engineering.",
+      "actions": {
+        "contact": "Get in touch",
+        "downloadCV": "Download my CV"
+      }
     }
   }
 }

@@ -8,14 +8,15 @@
   // Colors
   // -------------------------------------------------------------------------- //
   --color--primary: #41B4E4;
-  --color--secondary: #F9D5E0;
+  --color--secondary: #F4A1BB;
   --color--positive: ;
   --color--negative: ;
   --color--info: #41B4E4;
+  --color--shade: #e4e4e4;
 
   --color--link: var(--color--info);
 
-  --color--text: #2c3e50;
+  --color--text: #565656;
   --color--heading: ;
   --color--title: ;
 
@@ -85,6 +86,8 @@
   // ------------------------------------------------------------------------ //
 
   --border-radius--b: 6px;
+  --border-radius--button: var( --border-radius--b);
+
   --border-width--input: var(--border-width--b);
   --border-width--button: var(--border-width--b);
 
