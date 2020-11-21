@@ -153,6 +153,7 @@ export default {
 
       @include media('<420px') {
         justify-content: center;
+        margin-left: calc(var(--rem--b) * -1)
       }
 
       :not(:last-child) {
