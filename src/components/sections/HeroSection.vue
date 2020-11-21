@@ -34,10 +34,10 @@
             </a>
           </div>
         </div>
-        <div class="hero-section__container">
+        <div class="hero-section__container hero-section__feature">
           <img
             rel="preload"
-            class="hero-section__image"
+            class="hero-section__container hero-section__feature-image"
             src="@/assets/images/illustrations/hero--photo.png"
             alt="Blue and pink circular graphic with picture of Alex Gearing inside."
           >
@@ -68,6 +68,10 @@ export default {
   position: relative;
   padding: 4rem;
 
+  @include media('<tablet') {
+    padding: var(--rem--b);
+  }
+
   &__content {
     align-items: center;
     position: relative;
@@ -77,9 +81,21 @@ export default {
     max-width: 1280px;
     padding: var(--rem--xl);
     margin: auto;
+
+    @include media("<tablet") {
+      flex-direction: column;
+      padding: var(--rem--b) var(--rem--xl);
+    }
   }
 
   &__introduction {
+    margin-right: var(--rem--l);
+
+    @include media("<tablet") {
+      order: 2;
+      margin: unset;
+    }
+
     &-text {
       &--first {
         font-size: 3rem;
@@ -95,6 +111,11 @@ export default {
         font-style: italic;
         font-size: 2.8rem;
         z-index: 200;
+        white-space: nowrap;
+
+        @include media('<420px') {
+          font-size: 2.2rem;
+        }
       }
     }
 
@@ -104,27 +125,59 @@ export default {
 
     &-logo {
       display: inline;
+      width: 256px;
+      height: auto;
+
+      @include media('<420px') {
+        width: 196px;
+      }
     }
 
     &-byline {
       font-size: var(--font-size--m);
       font-weight: var(--font-weight--medium);
       margin-bottom: var(--rem--xl);
+
+      @include media('<420px') {
+        font-size: var(--font-size--b);
+      }
     }
 
     &-actions {
       display: flex;
       align-items: center;
 
+      @include media('<tablet') {
+        flex-wrap: wrap;
+      }
+
+      @include media('<420px') {
+        justify-content: center;
+      }
+
       :not(:last-child) {
         margin-right: var(--rem--b);
       }
 
+      & > * {
+        margin-bottom: var(--rem--b);
+
+        @include media('<420px') {
+          flex-grow: 1;
+          margin-left: var(--rem--b);
+          margin-right: unset !important;
+          margin-bottom: var(--rem--b);
+        }
+      }
+
       &-linkedin {
         &--wrapper {
-              box-shadow: 2px 5px 10px var(--color--shade);
-    padding: var(--rem--s);
-    border-radius: var(--border-radius--button);
+          background-color: #ffffff;
+          box-shadow: 2px 5px 10px var(--color--shade);
+          padding: var(--rem--s);
+          border-radius: var(--border-radius--button);
+          display: flex;
+          justify-content: center;
         }
 
         &--image {
@@ -139,8 +192,22 @@ export default {
     }
   }
 
-  &__image {
+  &__feature {
+    min-width: 0;
     max-width: 512px;
+    flex-shrink: 2;
+
+    @include media("<tablet") {
+      width: 75vw;
+      max-width: 256px;
+      order: 1;
+      padding-bottom: var(--rem--b);
+    }
+
+    &-image {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   &__background {

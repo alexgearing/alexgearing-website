@@ -2,8 +2,6 @@
   <div class="animated-logo">
     <svg
       class="animated-logo__vector"
-      width="255px"
-      height="42px"
       viewBox="0 0 255 42"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -137,6 +135,8 @@ export default {
   position: relative;
 
   &__vector {
+    width: calc(100% - var(--rem--xxxs) - var(--rem--xxxs));
+    height: auto;
     position: relative;
     z-index: 200;
     padding: 0 var(--rem--xxxs);
