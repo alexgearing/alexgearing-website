@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Acta Deck';
+  src: url('~@/assets/fonts/acta-deck/ActaDeck-Black.eot');
+  src: url('~@/assets/fonts/acta-deck/ActaDeck-Black.eot?#iefix') format('embedded-opentype'),
+  url('~@/assets/fonts/acta-deck/ActaDeck-Black.woff2') format('woff2'),
+  url('~@/assets/fonts/acta-deck/ActaDeck-Black.woff') format('woff'),
+  url('~@/assets/fonts/acta-deck/ActaDeck-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Acta Deck';
+  src: url('~@/assets/fonts/acta-deck/ActaDeck-MediumItalic.eot');
+  src: url('~@/assets/fonts/acta-deck/ActaDeck-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url('~@/assets/fonts/acta-deck/ActaDeck-MediumItalic.woff2') format('woff2'),
+      url('~@/assets/fonts/acta-deck/ActaDeck-MediumItalic.woff') format('woff'),
+      url('~@/assets/fonts/acta-deck/ActaDeck-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
