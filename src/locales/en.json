@@ -5,6 +5,9 @@
         "about": "About me",
         "experience": "Experience",
         "placeholder": "Placeholer"
+        "product": "Product",
+        "development": "Development",
+        "experience": "Experience"
       },
       "languageSwitcher": "Language switcher..."
     }

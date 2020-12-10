@@ -11,19 +11,19 @@
           class="nav-bar__item"
           href=""
         >
-          {{ $t('components.navBar.links.about') }}
+          {{ $t('components.navBar.links.product') }}
+        </a>
+        <a
+          class="nav-bar__item"
+          href=""
+        >
+          {{ $t('components.navBar.links.development') }}
         </a>
         <a
           class="nav-bar__item"
           href=""
         >
           {{ $t('components.navBar.links.experience') }}
-        </a>
-        <a
-          class="nav-bar__item"
-          href=""
-        >
-          {{ $t('components.navBar.links.placeholder') }}
         </a>
       </div>
     </div>
