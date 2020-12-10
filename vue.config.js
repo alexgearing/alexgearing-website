@@ -1,4 +1,11 @@
 module.exports = {
+  pages: {
+    index: {
+      title: 'Alex Gearing | Hello',
+      entry: 'src/main.js',
+    },
+  },
+
   css: {
     loaderOptions: {
       sass: {
