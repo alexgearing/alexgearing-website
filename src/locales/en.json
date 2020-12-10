@@ -2,9 +2,6 @@
   "components": {
     "navBar": {
       "links": {
-        "about": "About me",
-        "experience": "Experience",
-        "placeholder": "Placeholer"
         "product": "Product",
         "development": "Development",
         "experience": "Experience"
@@ -21,6 +18,12 @@
         "contact": "Get in touch",
         "downloadCV": "Download my CV"
       }
+    },
+    "product": {
+      "sectionTitle": "PRODUCT",
+      "title": "Building cool tech",
+      "byline": "My most recent experience comes from diving deep into the needs of users & the business that services them to build something truly unique.",
+      "description": "I have really enjoyed being able to explore solutions to complex and intricate problems, whilst bringing a background centered in technical delivery to be able to correctly manage scope and viability within the bounds of a web application."
     }
   }
 }
