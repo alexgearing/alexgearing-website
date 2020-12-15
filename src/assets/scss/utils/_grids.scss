@@ -1,0 +1,56 @@
+// ---------------------------------------------------------------------------//
+// Grid & cell basics
+// ---------------------------------------------------------------------------//
+
+%grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+%cell { flex: 1; }
+
+%cell--full {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@each $width, $percentage in $percentage-map {
+  @include media('>desktop') {
+    %cell--width--#{$width} { flex: 0 0 $percentage; max-width: $percentage; }
+    %cell--offset--#{$width} { margin-left: $percentage; }
+  }
+
+  // Specify >desktop extends for print - to be removed when we re-work our
+  // grid breakpoints.
+  @media print {
+    %cell--width--#{$width} { flex: 0 0 $percentage; max-width: $percentage; }
+    %cell--offset--#{$width} { margin-left: $percentage; }
+  }
+}
+
+%grid--widths {
+  @each $width, $percentage in $percentage-map {
+    [class*="width--#{$width}"] { @extend %cell--width--#{$width}; }
+    [class*="offset--#{$width}"] { @extend %cell--offset--#{$width}; }
+  }
+
+  [class*="width--auto"] { flex: 1; }
+}
+
+// Base gutters.
+%grid--guttered {
+  > * {
+    box-sizing: border-box;
+    padding: 0 var(--grid--gutter-size);
+  }
+}
+
+// Sized gutters.
+@each $size, $rem in $rem-map {
+  %grid--guttered--#{$size} {
+    --grid--gutter-size: var(--rem--#{$size});
+  }
+}

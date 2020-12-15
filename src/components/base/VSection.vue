@@ -32,27 +32,44 @@ export default {
 
 .v-section {
   position: relative;
-  padding: 12rem 4rem;
+  padding: 8rem 4rem;
+
+  @include media('<tablet') {
+    padding: 4rem 2rem;
+  }
+
+  @include media('<phone') {
+    padding: 2rem 1rem;
+  }
 
   &__content {
-    background-color: #FFFFFF;
-    border-radius: 64px;
-    align-items: center;
     position: relative;
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     max-width: 1280px;
     padding: var(--rem--xl);
     margin: auto;
+
+    @extend %grid;
+    @extend %grid--widths;
+    @extend %grid--guttered;
+    @extend %grid--guttered--xl;
   }
 
   &__container {
     &-text {
+      @extend %cell--width--60;
       order: 2
     }
 
     &-image {
-      order: 3
+      @extend %cell--width--40;
+      min-width: 0;
+      min-height: 0;
+      width: 100%;
+      height: 100%;
+      max-width: 382px;
+      order: 3;
 
       &--is-left {
         order: 1
