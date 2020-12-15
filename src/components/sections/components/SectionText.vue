@@ -1,4 +1,11 @@
 <template>
+  <div
+    :class="[
+      'section-text',
+      `section-text--text-align--${textAlign}`,
+      { 'section-text--text-inverted': isTextInverted},
+    ]"
+  >
     <span
       v-if="$slots['section-title']"
       class="section-text__section-title"
@@ -30,6 +37,7 @@
 export default {
   name: 'SectionText',
   props: {
+    isTextInverted: {
       type: Boolean,
       default: false,
     },
@@ -49,6 +57,10 @@ export default {
     &--left { text-align: left; }
     &--center { text-align: center; }
     &--right { text-align: right; }
+  }
+
+  &--text-inverted {
+    color: var(--color--text-inverted);
   }
 
   &__section-title {
