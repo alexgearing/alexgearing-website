@@ -24,6 +24,12 @@
       "title": "Building cool tech",
       "byline": "My most recent experience comes from diving deep into the needs of users & the business that services them to build something truly unique.",
       "description": "I have really enjoyed being able to explore solutions to complex and intricate problems, whilst bringing a background centered in technical delivery to be able to correctly manage scope and viability within the bounds of a web application."
+    },
+    "code": {
+      "sectionTitle": "DEVELOPMENT",
+      "title": "A love of coding",
+      "byline": "A developer for three years now, I still enjoy nothing more than hitting the tools and putting ideas into reality.",
+      "description": "I have worked professionally as a Frontend developer and also have a deep understanding of the entire stack for most web applications."
     }
   }
 }

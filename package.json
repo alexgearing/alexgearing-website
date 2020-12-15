@@ -15,6 +15,7 @@
     "core-js": "^3.6.5",
     "include-media": "^1.4.9",
     "normalize.css": "^8.0.1",
+    "typeit": "^7.0.4",
     "vue": "^2.6.11",
     "vue-i18n": "^8.17.3",
     "vue-router": "^3.2.0",

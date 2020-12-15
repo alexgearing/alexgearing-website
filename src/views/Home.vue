@@ -3,6 +3,7 @@
     <nav-bar />
     <hero-section />
     <product-section />
+    <code-section />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import NavBar from '@/components/ui/NavBar'
 import HeroSection from '@/components/sections/HeroSection'
 import ProductSection from '@/components/sections/ProductSection'
+import CodeSection from '@/components/sections/CodeSection'
 
 export default {
   name: 'Home',
@@ -17,6 +19,7 @@ export default {
     NavBar,
     HeroSection,
     ProductSection,
+    CodeSection,
   },
 }
 </script>
