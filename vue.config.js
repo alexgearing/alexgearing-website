@@ -38,6 +38,7 @@ module.exports = {
           plugins: [
             { cleanupIDs: false },
             { collapseGroups: false },
+            { removeViewBox: false },
           ],
         },
       })
