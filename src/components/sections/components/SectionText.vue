@@ -1,15 +1,26 @@
 <template>
-  <div :class="['section-text', `section-text--text-align--${textAlign}`]">
-    <span class="section-text__section-title">
+    <span
+      v-if="$slots['section-title']"
+      class="section-text__section-title"
+    >
       <slot name="section-title" />
     </span>
-    <h2 class="section-text__title">
+    <h2
+      v-if="$slots.title"
+      class="section-text__title"
+    >
       <slot name="title" />
     </h2>
-    <p class="section-text__byline">
+    <p
+      v-if="$slots.byline"
+      class="section-text__byline"
+    >
       <slot name="byline" />
     </p>
-    <p class="section-text__description">
+    <p
+      v-if="$slots.description"
+      class="section-text__description"
+    >
       <slot name="description" />
     </p>
   </div>
@@ -19,7 +30,6 @@
 export default {
   name: 'SectionText',
   props: {
-    isInverted: {
       type: Boolean,
       default: false,
     },
