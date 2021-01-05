@@ -1,6 +1,7 @@
 <template>
   <div class="code-section">
     <v-section
+      :text-width="50"
       class="code-section__content"
     >
       <template #text>
@@ -23,35 +24,60 @@
       </template>
       <template #image>
         <div class="code-section__feature">
-          <!-- eslint-disable-next-line -->
-          <pre
-            id="code-section__feature-text-editor"
-            class="code-section__feature-text-editor text-editor"
-          >
-<span class="text-editor--blue">&lt;</span><span class="text-editor--red">script</span><span class="text-editor--blue">&gt;</span>
-<span class="text-editor--blue">import</span><span> AttentionToDetails </span><span class="text-editor--blue">from '</span><span class="text-editor--green">@/components/MakingsOfTheGearing</span><span class="text-editor--blue">'</span>
-<span class="text-editor--blue">import</span><span> ProductionApplicationExperience </span><span class="text-editor--blue">from '</span><span class="text-editor--green">@/components/MakingsOfTheGearing</span><span class="text-editor--blue">'</span>
-<span />
-<span class="text-editor--blue">export default {</span>
-  <span class="text-editor--red">name</span><span class="text-editor--blue">: '</span><span class="text-editor--green">AlexGearing</span><span class="text-editor--blue">',</span>
-  <span class="text-editor--red">components</span><span class="text-editor--blue">: {</span><span> AttentionToDetails</span><span class="text-editor--blue">, </span><span>ProductionApplicationExperience</span><span class="text-editor--blue"> },</span>
-  <span class="text-editor--red">data </span><span class="text-editor--blue">() {</span>
-    <span class="text-editor--blue">return {</span>
-      <span class="text-editor--red">availableDisciplines</span><span class="text-editor--blue">: {</span>
-        <span class="text-editor--red">frontEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">advanced</span><span class="text-editor--blue">',</span>
-        <span class="text-editor--red">backEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">intermediate</span><span class="text-editor--blue">',</span>
-        <span class="text-editor--red">businessEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">customer first</span><span class="text-editor--blue">',</span>
-        <span class="text-editor--red">weekEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">football defender</span><span class="text-editor--blue">',</span>
-      <span class="text-editor--blue">},</span>
+          <div class="code-section__feature-container">
+            <pre class="code-section__feature-text-editor">
+              <div class="text-editor__numbers">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+                <span>11</span>
+                <span>12</span>
+                <span>13</span>
+                <span>14</span>
+                <span>15</span>
+                <span>16</span>
+                <span>17</span>
+                <span>18</span>
+                <span>19</span>
+                <span>20</span>
+                <span>21</span>
+                <span>22</span>
+              </div>
+              <span
+                id="text-editor__typing-area"
+                class="text-editor text-editor__typing-area "
+              >
+  <span class="text-editor--blue">&lt;</span><span class="text-editor--red">script</span><span class="text-editor--blue">&gt;</span>
+  <span class="text-editor--blue">import</span><span> AttentionToDetails </span><span class="text-editor--blue">from '</span><span class="text-editor--green">@/components/MakingsOfTheGearing</span><span class="text-editor--blue">'</span>
+  <span class="text-editor--blue">import</span><span> ProductionApplicationExperience </span><span class="text-editor--blue">from '</span><span class="text-editor--green">@/components/MakingsOfTheGearing</span><span class="text-editor--blue">'</span>
+  <span />
+  <span class="text-editor--blue">export default {</span>
+    <span class="text-editor--red">name</span><span class="text-editor--blue">: '</span><span class="text-editor--green">AlexGearing</span><span class="text-editor--blue">',</span>
+    <span class="text-editor--red">components</span><span class="text-editor--blue">: {</span><span> AttentionToDetails</span><span class="text-editor--blue">, </span><span>ProductionApplicationExperience</span><span class="text-editor--blue"> },</span>
+    <span class="text-editor--red">data </span><span class="text-editor--blue">() {</span>
+      <span class="text-editor--blue">return {</span>
+        <span class="text-editor--red">availableDisciplines</span><span class="text-editor--blue">: {</span>
+          <span class="text-editor--red">frontEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">advanced</span><span class="text-editor--blue">',</span>
+          <span class="text-editor--red">backEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">intermediate</span><span class="text-editor--blue">',</span>
+          <span class="text-editor--red">businessEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">customer first</span><span class="text-editor--blue">',</span>
+          <span class="text-editor--red">weekEnd</span><span class="text-editor--blue">: '</span><span class="text-editor--green">football defender</span><span class="text-editor--blue">',</span>
+        <span class="text-editor--blue">},</span>
+      <span class="text-editor--blue">}</span>
     <span class="text-editor--blue">}</span>
   <span class="text-editor--blue">}</span>
-<span class="text-editor--blue">}</span>
-<span />
-<span class="text-editor--blue">&lt;</span><span class="text-editor--red">script</span><span class="text-editor--blue">&gt;</span>
-          </pre>
-          <div class="code-section__feature-circle--large">
-            <div class="code-section__feature-circle--small" />
+  <span />
+  <span class="text-editor--blue">&lt;/</span><span class="text-editor--red">script</span><span class="text-editor--blue">&gt;</span>
+              </span>
+            </pre>
           </div>
+          <circle-illustration class="code-section__feature-circle" />
         </div>
       </template>
     </v-section>
@@ -61,11 +87,13 @@
 <script>
 import TypeIt from 'typeit'
 
+import CircleIllustration from '@/assets/images/illustrations/circle--illustration.svg?inline'
 import SectionText from './components/SectionText.vue'
 
 export default {
   name: 'CodeSection',
   components: {
+    CircleIllustration,
     SectionText,
   },
   mounted () {
@@ -74,8 +102,8 @@ export default {
   methods: {
     animateTextEditor () {
       // eslint-disable-next-line
-      const typed = new TypeIt('#code-section__feature-text-editor', {
-        speed: 25,
+      const typed = new TypeIt('#text-editor__typing-area', {
+        speed: 20,
         waitUntilVisible: true,
       }).go()
     },
@@ -86,6 +114,8 @@ export default {
 <style lang="scss" scoped>
 
 .code-section {
+  --line-height--text-editor: 1.4;
+
   background-color: #1A1E2C;
   position: relative;
   padding: 12rem 4rem;
@@ -93,41 +123,61 @@ export default {
   &__feature {
     position: relative;
 
+    &-container {
+      position: relative;
+      width: 83.5%;
+      height: 60%;
+      max-height: 60%;
+      margin-right: 16.5%;
+      top: 20%;
+    }
+
     &-text-editor {
       position: relative;
+      display: flex;;
       color: #D5D9F0;
       font-family: var(--font-family--monospace);
       font-size: var(--font-size--s);
       background-color: #282D3F;
       border-radius: var(--rem--b);
-      width: 83.5%;
-      height: 60%;
-      margin-right: 16.5%;
-      top: 20%;
-      overflow: hidden;
+      padding: var(--rem--b) 0;
       z-index: 300;
     }
 
     &-circle {
-      &--large {
-        position: absolute;
-        background-color: #465382;
-        border-radius: 50%;
-        width: 83.5%;
-        height: 83.5%;
-        top: 8.25%;
-        right: 0;
-        z-index: 100;
-      }
-      &--small {
-        position: absolute;
-        right: 0;
-        background-color: #F9D5E0;
-        border-radius: 50%;
-        width: 45%;
-        height: 45%;
-        z-index: 200;
-      }
+      position: absolute;
+      top: -15%;
+      right: -7.5%;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.text-editor {
+  line-height: var(--line-height--text-editor);
+
+  &__numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--rem--b);
+    color: #55718d;
+    white-space: normal;
+
+    > * {
+      line-height: var(--line-height--text-editor);
+    }
+  }
+
+  &__typing-area {
+    padding-right: var(--rem--b);
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 }
