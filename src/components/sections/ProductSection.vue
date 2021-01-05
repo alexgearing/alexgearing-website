@@ -5,7 +5,7 @@
       class="product-section__content"
     >
       <template #image>
-        <product-illustration />
+        <product-illustration class="product-section__feature" />
       </template>
       <template #text>
         <section-text text-align="right">
@@ -83,6 +83,10 @@ export default {
 
   &__content {
     z-index: 200;
+    /deep/ .v-section__content {
+      background-color: #FFFFFF;
+      border-radius: 64px;
+    }
   }
 
   &__background {
