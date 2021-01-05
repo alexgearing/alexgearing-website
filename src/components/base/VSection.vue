@@ -50,20 +50,14 @@ export default {
     padding: var(--rem--xl);
     margin: auto;
 
-    @extend %grid;
-    @extend %grid--widths;
-    @extend %grid--guttered;
-    @extend %grid--guttered--xl;
   }
 
   &__container {
     &-text {
-      @extend %cell--width--60;
       order: 2
     }
 
     &-image {
-      @extend %cell--width--40;
       min-width: 0;
       min-height: 0;
       width: 100%;
