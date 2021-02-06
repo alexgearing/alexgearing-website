@@ -30,6 +30,18 @@
     >
       <slot name="description" />
     </p>
+    <div
+      v-if="$slots.iconImages"
+      class="section-text__icon-images"
+    >
+      <slot name="iconImages" />
+    </div>
+    <div
+      v-if="$slots.footer"
+      class="section-text__footer"
+    >
+      <slot name="footer" />
+    </div>
   </div>
 </template>
 
@@ -37,6 +49,10 @@
 export default {
   name: 'SectionText',
   props: {
+    iconImages: {
+      default: () => [],
+      type: Array,
+    },
     isTextInverted: {
       type: Boolean,
       default: false,
@@ -64,12 +80,14 @@ export default {
   }
 
   &__section-title {
+    font-size: var(--font-size--l);
     color: var(--color--primary);
     font-weight: var(--font-weight--bold);
   }
 
   &__title {
     font-size: var(--font-size--xxxl);
+    margin: var(--rem--b) 0;
   }
 
   &__byline {
@@ -79,6 +97,12 @@ export default {
 
   &__description {
     font-weight: var(--font-weight--regular);
+  }
+
+  &__icon-images {
+    > * {
+      padding: var(--rem--xxxs) var(--rem--xs);
+    }
   }
 }
 
