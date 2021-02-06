@@ -8,7 +8,10 @@
         <product-illustration class="product-section__feature" />
       </template>
       <template #text>
-        <section-text text-align="right">
+        <section-text
+          :icon-images="iconImages"
+          text-align="right"
+        >
           <template #section-title>
             {{ $t('sections.product.sectionTitle') }}
           </template>
@@ -20,6 +23,32 @@
           </template>
           <template #description>
             {{ $t('sections.product.description') }}
+          </template>
+          <template #iconImages>
+            <img
+              src="@/assets/images/icons/product/basecamp.svg"
+              alt="basecamp logo"
+            >
+            <img
+              src="@/assets/images/icons/product/jira.svg"
+              alt="jira logo"
+            >
+            <img
+              src="@/assets/images/icons/product/linear.svg"
+              alt="linear logo"
+            >
+            <img
+              src="@/assets/images/icons/product/notion.svg"
+              alt="notion logo"
+            >
+            <img
+              src="@/assets/images/icons/product/sketch.svg"
+              alt="sketch logo"
+            >
+            <img
+              src="@/assets/images/icons/product/figma.svg"
+              alt="figma logo"
+            >
           </template>
         </section-text>
       </template>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>linear</title>
+    <g id="Wesbite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1032.000000, -1703.000000)" fill="#5E6AD2" fill-rule="nonzero">
+            <g id="Group-16" transform="translate(134.000000, 1280.000000)">
+                <g id="Group-15" transform="translate(75.000000, 67.000000)">
+                    <g id="Group-14" transform="translate(548.000000, 56.000000)">
+                        <g id="linear" transform="translate(275.000000, 300.000000)">
+                            <path d="M0,20 L14,34 C6.85066006,32.7915215 1.20848288,27.1493364 0,20 Z" id="Path"></path>
+                            <path d="M0,16.1057463 L17.8942537,34 C18.9584653,33.9431536 19.9966687,33.7883785 21,33.5445917 L0.45540295,13 C0.211610383,14.0033843 0.0568623387,15.0415347 0,16.1057463 Z" id="Path"></path>
+                            <path d="M1,10.3675357 L23.6324627,33 C24.4567798,32.6461987 25.2479499,32.2299778 26,31.7572563 L2.24274451,8 C1.77001193,8.75204963 1.35377996,9.54321918 1,10.3675357 Z" id="Path"></path>
+                            <path d="M4,5.93803392 C7.12904238,2.30224492 11.7645107,0 16.9376934,0 C26.3609613,0 34,7.63903739 34,17.0623035 C34,22.2354853 31.6977707,26.8709528 28.061965,30 L4,5.93803392 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

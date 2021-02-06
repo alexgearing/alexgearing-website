@@ -20,6 +20,41 @@
           <template #description>
             {{ $t('sections.code.description') }}
           </template>
+          <template #iconImages>
+            <img
+              src="@/assets/images/icons/development/vue.svg"
+              alt="basecamp logo"
+            >
+            <img
+              src="@/assets/images/icons/development/react.svg"
+              alt="jira logo"
+            >
+            <img
+              src="@/assets/images/icons/development/html.svg"
+              alt="linear logo"
+            >
+            <img
+              src="@/assets/images/icons/development/js.svg"
+              alt="notion logo"
+            >
+            <img
+              src="@/assets/images/icons/development/css.svg"
+              alt="sketch logo"
+            >
+            <img
+              src="@/assets/images/icons/development/github.svg"
+              alt="figma logo"
+            >
+          </template>
+          <template #footer>
+            <p>{{ $t('sections.code.footer.pre') }}</p>
+            <button
+              class="code-section__button button button--primary"
+              @click.prevent="handleButtonClick"
+            >
+              {{ $t('sections.code.footer.button') }}
+            </button>
+          </template>
         </section-text>
       </template>
       <template #image>
@@ -107,6 +142,10 @@ export default {
         waitUntilVisible: true,
       }).go()
     },
+
+    handleButtonClick () {
+      window.open('https://github.com/alexgearing/alexgearing-website')
+    },
   },
 }
 </script>
@@ -119,6 +158,10 @@ export default {
   background-color: #1A1E2C;
   position: relative;
   padding: 12rem 4rem;
+
+  &__button {
+    box-shadow: unset;
+  }
 
   &__feature {
     position: relative;

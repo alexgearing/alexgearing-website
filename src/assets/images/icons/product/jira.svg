@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="33px" viewBox="0 0 32 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>jira</title>
+    <defs>
+        <linearGradient x1="67.6800148%" y1="40.3276956%" x2="40.820818%" y2="81.6596195%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.6559851%" y1="59.1664468%" x2="59.3430302%" y2="17.9899763%" id="linearGradient-2">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Wesbite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-1132.000000, -1703.000000)" fill-rule="nonzero">
+            <g id="Group-16" transform="translate(134.000000, 1280.000000)">
+                <g id="Group-15" transform="translate(75.000000, 67.000000)">
+                    <g id="Group-14" transform="translate(548.000000, 56.000000)">
+                        <g id="Group-13" transform="translate(275.000000, 300.000000)">
+                            <g id="jira" transform="translate(100.000000, 0.000000)">
+                                <path d="M31.3081081,15.4637838 L17.2108108,1.36648649 L15.8443243,0 L15.8443243,0 L5.23243243,10.6118919 L5.23243243,10.6118919 L0.380540541,15.4637838 C-0.125324762,15.970279 -0.125324762,16.7908021 0.380540541,17.2972973 L10.0756757,26.9924324 L15.8443243,32.7610811 L26.4562162,22.1491892 L26.6205405,21.9848649 L31.3081081,17.2972973 C31.8139734,16.7908021 31.8139734,15.970279 31.3081081,15.4637838 Z M15.8443243,21.2237838 L11.0010811,16.3805405 L15.8443243,11.5372973 L20.6875676,16.3805405 L15.8443243,21.2237838 Z" id="Shape" fill="#2684FF"></path>
+                                <path d="M15.8443243,11.5372973 C12.6733311,8.3659295 12.6578768,3.22930995 15.8097297,0.0389189189 L5.21081081,10.6335135 L10.9794595,16.4021622 L15.8443243,11.5372973 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                                <path d="M20.7005405,16.3675676 L15.8443243,21.2237838 C17.3748597,22.7534089 18.234782,24.8285721 18.234782,26.9924324 C18.234782,29.1562927 17.3748597,31.231456 15.8443243,32.7610811 L15.8443243,32.7610811 L26.4691892,22.1362162 L20.7005405,16.3675676 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
