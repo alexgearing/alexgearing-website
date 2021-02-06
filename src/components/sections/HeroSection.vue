@@ -15,10 +15,16 @@
             {{ $t('sections.hero.byline') }}
           </p>
           <div class="hero-section__introduction-actions">
-            <button class="button button--primary">
+            <button
+              class="button button--primary"
+              @click.prevent="handleGetInTouchClick"
+            >
               {{ $t('sections.hero.actions.contact') }}
             </button>
-            <button class="button button--secondary">
+            <button
+              class="button button--secondary"
+              @click.prevent="handleCVDownloadClick"
+            >
               {{ $t('sections.hero.actions.downloadCV') }}
             </button>
             <a
@@ -59,6 +65,15 @@ import AnimatedLogo from '@/components/sections/hero/AnimatedLogo'
 export default {
   name: 'HeroSection',
   components: { AnimatedLogo },
+
+  methods: {
+    handleCVDownloadClick () {
+      window.open('/alex-gearing--resume.pdf')
+    },
+    handleGetInTouchClick () {
+      window.location.href = 'mailto:alexmgearing@gmail.com'
+    },
+  },
 }
 </script>
 
