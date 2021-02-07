@@ -7,63 +7,64 @@
       :text-width="50"
       class="code-section__content"
     >
-      <template #text>
-        <section-text
-          is-text-inverted
-        >
-          <template #section-title>
-            {{ $t('sections.code.sectionTitle') }}
-          </template>
-          <template #title>
-            {{ $t('sections.code.title') }}
-          </template>
-          <template #byline>
-            {{ $t('sections.code.byline') }}
-          </template>
-          <template #description>
-            {{ $t('sections.code.description') }}
-          </template>
-          <template #iconImages>
-            <img
-              src="@/assets/images/icons/development/vue.svg"
-              alt="basecamp logo"
-            >
-            <img
-              src="@/assets/images/icons/development/react.svg"
-              alt="jira logo"
-            >
-            <img
-              src="@/assets/images/icons/development/html.svg"
-              alt="linear logo"
-            >
-            <img
-              src="@/assets/images/icons/development/js.svg"
-              alt="notion logo"
-            >
-            <img
-              src="@/assets/images/icons/development/css.svg"
-              alt="sketch logo"
-            >
-            <img
-              src="@/assets/images/icons/development/github.svg"
-              alt="figma logo"
-            >
-          </template>
-          <template #footer>
-            <p>{{ $t('sections.code.footer.pre') }}</p>
-            <button
-              class="code-section__button button button--primary"
-              @click.prevent="handleButtonClick"
-            >
-              {{ $t('sections.code.footer.button') }}
-            </button>
-          </template>
-        </section-text>
-      </template>
-      <template #image>
-        <div class="code-section__feature">
-          <div class="code-section__feature-container">
-            <pre class="code-section__feature-text-editor">
+      <section-content>
+        <template #text>
+          <section-text
+            is-text-inverted
+          >
+            <template #section-title>
+              {{ $t('sections.code.sectionTitle') }}
+            </template>
+            <template #title>
+              {{ $t('sections.code.title') }}
+            </template>
+            <template #byline>
+              {{ $t('sections.code.byline') }}
+            </template>
+            <template #description>
+              {{ $t('sections.code.description') }}
+            </template>
+            <template #iconImages>
+              <img
+                src="@/assets/images/icons/development/vue.svg"
+                alt="basecamp logo"
+              >
+              <img
+                src="@/assets/images/icons/development/react.svg"
+                alt="jira logo"
+              >
+              <img
+                src="@/assets/images/icons/development/html.svg"
+                alt="linear logo"
+              >
+              <img
+                src="@/assets/images/icons/development/js.svg"
+                alt="notion logo"
+              >
+              <img
+                src="@/assets/images/icons/development/css.svg"
+                alt="sketch logo"
+              >
+              <img
+                src="@/assets/images/icons/development/github.svg"
+                alt="figma logo"
+              >
+            </template>
+            <template #footer>
+              <p>{{ $t('sections.code.footer.pre') }}</p>
+              <button
+                class="code-section__button button button--primary"
+                @click.prevent="handleButtonClick"
+              >
+                {{ $t('sections.code.footer.button') }}
+              </button>
+            </template>
+          </section-text>
+        </template>
+        <template #image>
+          <div class="code-section__feature">
+            <div class="code-section__feature-container">
+              <pre class="code-section__feature-text-editor">
               <div class="text-editor__numbers">
                 <span>1</span>
                 <span>2</span>
@@ -114,10 +115,11 @@
   <span class="text-editor--blue">&lt;/</span><span class="text-editor--red">script</span><span class="text-editor--blue">&gt;</span>
               </span>
             </pre>
+            </div>
+            <circle-illustration class="code-section__feature-circle" />
           </div>
-          <circle-illustration class="code-section__feature-circle" />
-        </div>
-      </template>
+        </template>
+      </section-content>
     </v-section>
   </div>
 </template>
@@ -126,12 +128,14 @@
 import TypeIt from 'typeit'
 
 import CircleIllustration from '@/assets/images/illustrations/circle--illustration.svg?inline'
+import SectionContent from './components/SectionContent.vue'
 import SectionText from './components/SectionText.vue'
 
 export default {
   name: 'CodeSection',
   components: {
     CircleIllustration,
+    SectionContent,
     SectionText,
   },
   mounted () {
@@ -161,6 +165,18 @@ export default {
   background-color: #1A1E2C;
   position: relative;
   padding: 12rem 4rem;
+
+  @include media ('<desktop') {
+    padding: 6rem 2rem;
+  }
+
+  @include media ('<tablet') {
+    padding: 4rem 2rem;
+  }
+
+  @include media ('<=phone') {
+    padding: 2rem 1rem;
+  }
 
   &__button {
     box-shadow: unset;
