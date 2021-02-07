@@ -1,5 +1,8 @@
 <template>
-  <div class="code-section">
+  <div
+    id="development"
+    class="code-section"
+  >
     <v-section
       :text-width="50"
       class="code-section__content"

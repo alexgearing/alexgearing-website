@@ -1,5 +1,8 @@
 <template>
-  <div class="product-section">
+  <div
+    id="product"
+    class="product-section"
+  >
     <v-section
       has-image-on-left
       class="product-section__content"

@@ -9,13 +9,13 @@
       <div class="nav-bar__items">
         <a
           class="nav-bar__item"
-          href=""
+          href="#product"
         >
           {{ $t('components.navBar.links.product') }}
         </a>
         <a
           class="nav-bar__item"
-          href=""
+          href="#development"
         >
           {{ $t('components.navBar.links.development') }}
         </a>
