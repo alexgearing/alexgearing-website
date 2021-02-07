@@ -12,7 +12,6 @@
       </template>
       <template #text>
         <section-text
-          :icon-images="iconImages"
           text-align="right"
         >
           <template #section-title>
