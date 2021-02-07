@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import AnimatedLogo from '@/components/sections/hero/AnimatedLogo'
+import AnimatedLogo from '@/components/sections/components/hero/AnimatedLogo'
 
 export default {
   name: 'HeroSection',
