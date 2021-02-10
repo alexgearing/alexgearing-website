@@ -5,6 +5,9 @@ import store from './store'
 import registerGlobalComponents from '@/utils/registerGlobalComponents'
 import '@/assets/scss/index.scss'
 import i18n from './i18n'
+import VueAgile from 'vue-agile'
+
+Vue.use(VueAgile)
 
 Vue.config.productionTip = false
 
