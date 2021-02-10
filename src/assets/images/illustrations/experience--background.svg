@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="615px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="3.53201486%" x2="50%" y2="99.0961397%" id="linearGradient-1">
+            <stop stop-color="#F2FBFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D3F2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.53201486%" x2="50%" y2="99.0961397%" id="linearGradient-2">
+            <stop stop-color="#F2FBFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#B9E7FB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Wesbite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-20-Copy">
+            <path d="M835.597766,397.634921 C1096.53259,328.437837 1298,195.892864 1440,0 L1440,615 L9.09494702e-13,615 L9.09494702e-13,512.991434 C296.130354,505.284175 574.662943,466.832004 835.597766,397.634921 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(720.000000, 307.500000) scale(-1, 1) translate(-720.000000, -307.500000) "></path>
+            <path d="M835.597766,459.133333 C1096.53259,409.513961 1298,314.469517 1440,174 L1440,615 L-4.54747351e-13,615 L-4.54747351e-13,541.852394 C296.130354,536.325725 574.662943,508.752705 835.597766,459.133333 Z" id="Rectangle" fill="url(#linearGradient-2)"></path>
+        </g>
+    </g>
+</svg>

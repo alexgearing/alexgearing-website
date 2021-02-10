@@ -140,6 +140,12 @@
         >{{ $t('sections.experience.selector.projects') }}</a>
       </div>
     </v-section>
+    <div class="experience-section__background">
+      <img
+        class="experience-section__background-image"
+        src="@/assets/images/illustrations/experience--background.svg"
+      >
+    </div>
   </div>
 </template>
 
@@ -223,6 +229,21 @@ export default {
         color: var(--color--primary);
         font-weight: var(--font-weight--bold);
       }
+    }
+  }
+
+  &__background {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+    &-image {
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
     }
   }
 }

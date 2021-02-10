@@ -149,7 +149,6 @@ export default {
     z-index: 100;
 
     &-image {
-      height: auto;
       width: 100%;
       height: 100%;
       max-height: 100%;
