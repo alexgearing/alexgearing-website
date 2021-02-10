@@ -4,6 +4,7 @@
     class="product-section"
   >
     <v-section
+      ref="animate"
       has-image-on-left
       class="product-section__content"
     >
@@ -67,6 +68,7 @@
 </template>
 
 <script>
+import FadeAnimationMixin from '@/mixins/FadeAnimationMixin'
 import ProductIllustration from '@/assets/images/illustrations/product--illustration.svg?inline'
 import SectionContent from './components/SectionContent.vue'
 import SectionText from './components/SectionText.vue'
@@ -80,8 +82,10 @@ export default {
     SectionContent,
     SectionText,
   },
+  mixins: [FadeAnimationMixin],
 
   mounted () {
+    this.$_setFadeTransition(this.$refs.animate)
     anime.timeline({
       easing: 'linear',
       loop: true,

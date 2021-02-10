@@ -4,6 +4,7 @@
     class="experience-section"
   >
     <v-section
+      ref="animate"
       class="experience-section__content"
     >
       <agile
@@ -143,6 +144,7 @@
 </template>
 
 <script>
+import FadeAnimationMixin from '@/mixins/FadeAnimationMixin'
 import SectionText from './components/SectionText.vue'
 import SectionContent from './components/SectionContent.vue'
 
@@ -152,11 +154,16 @@ export default {
     SectionContent,
     SectionText,
   },
+  mixins: [FadeAnimationMixin],
 
   data () {
     return {
       currentSlide: 1,
     }
+  },
+
+  mounted () {
+    this.$_setFadeTransition(this.$refs.animate)
   },
 
   methods: {

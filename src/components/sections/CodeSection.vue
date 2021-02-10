@@ -4,6 +4,7 @@
     class="code-section"
   >
     <v-section
+      ref="animate"
       :text-width="50"
       class="code-section__content"
     >
@@ -127,6 +128,7 @@
 <script>
 import TypeIt from 'typeit'
 
+import FadeAnimationMixin from '@/mixins/FadeAnimationMixin'
 import CircleIllustration from '@/assets/images/illustrations/circle--illustration.svg?inline'
 import SectionContent from './components/SectionContent.vue'
 import SectionText from './components/SectionText.vue'
@@ -138,9 +140,13 @@ export default {
     SectionContent,
     SectionText,
   },
+  mixins: [FadeAnimationMixin],
+
   mounted () {
+    this.$_setFadeTransition(this.$refs.animate)
     this.animateTextEditor()
   },
+
   methods: {
     animateTextEditor () {
       // eslint-disable-next-line
@@ -149,7 +155,6 @@ export default {
         waitUntilVisible: true,
       }).go()
     },
-
     handleButtonClick () {
       window.open('https://github.com/alexgearing/alexgearing-website')
     },
