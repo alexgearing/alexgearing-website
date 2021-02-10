@@ -2,21 +2,66 @@
   "components": {
     "navBar": {
       "links": {
-        "about": "About me",
-        "experience": "Experience",
-        "placeholder": "Placeholer"
+        "product": "Produkt",
+        "development": "Entwicklung",
+        "experience": "Erfahrung"
       },
-      "languageSwitcher": "Language switcher..."
+      "languageSwitcher": "Sprachumschalter..."
+    },
+    "footer": {
+      "legal": "© Alex Gearing 2021",
+      "memo": "Wesbite handgemacht mit Liebe ❤️ (und Vue)"
     }
   },
   "sections": {
     "hero": {
       "greeting": "Hallo!",
       "iAm": "Ich bin",
-      "byline": "I am a Product Manager with a background in web design and software engineering.",
+      "byline": "Ich bin ein Produktmanager mit einem Hintergrund in Webdesign und Softwareentwicklung.",
       "actions": {
-        "contact": "Get in touch",
-        "downloadCV": "Download my CV"
+        "contact": "Kontaktieren Sie mich",
+        "downloadCV": "Meinen Lebenslauf herunterladen"
+      }
+    },
+    "product": {
+      "sectionTitle": "PRODUKT",
+      "title": "Coole Technik bauen",
+      "byline": "Meine jüngsten Erfahrungen stammen aus dem tiefen Eintauchen in die Bedürfnisse der Benutzer und des Unternehmens, das sie bedient, um etwas wirklich Einzigartiges zu entwickeln.",
+      "description": "Ich habe es wirklich genossen, Lösungen für komplexe und komplizierte Probleme zu erforschen und gleichzeitig einen Hintergrund mitzubringen, der sich auf die technische Umsetzung konzentriert, um den Umfang und die Durchführbarkeit innerhalb der Grenzen einer Webanwendung korrekt verwalten zu können."
+    },
+    "code": {
+      "sectionTitle": "ENTWICKLUNG",
+      "title": "Die Liebe zum Programmieren",
+      "byline": "Ich bin seit drei Jahren Entwickler und genieße immer noch nichts mehr, als die Werkzeuge in die Hand zu nehmen und Ideen in die Realität umzusetzen.",
+      "description": "Ich habe professionell als Frontend-Entwickler gearbeitet und habe auch ein tiefes Verständnis für den gesamten Stack der meisten Webanwendungen.",
+      "footer": {
+        "pre": "Wollen Sie sehen, wie diese Website entstanden ist?",
+        "button": "Sehen Sie sich den Quellcode an"
+      }
+    },
+    "experience": {
+      "valiant": {
+        "sectionTitle": "INDUSTRIE-ERFAHRUNG",
+        "title": "Produktions-App-Erfahrung",
+        "byline": "Durch meine Arbeit bei Valiant Finance konnte ich mit allen Bereichen der Webanwendungserstellung interagieren, von Design & UI-Ideation bis hin zu Produktmanagement & Entwicklung.",
+        "description": "Die Valiant-Anwendung bot mir einen brillanten Einblick in eine Fülle von Technologien, die im gesamten Stack versteckt sind. Vom Vue-Frontend über das Ruby-on-Rails-Backend bis hin zum Salesforce-CRM - meine Position erforderte ein starkes Verständnis für jeden Bereich, um sicherzustellen, dass die besten Entscheidungen für das Unternehmen und die Entwickler getroffen werden konnten."
+      },
+      "university": {
+        "sectionTitle": "UNIVERSITÄT",
+        "title": "BA Technik & Innovation",
+        "byline": "Ich habe einen modernen Studiengang studiert, der auf einem konventionellen Technologie-Studium aufbaut, indem er wichtige Elemente des Unternehmertums und des Produktmanagements hinzufügt.",
+        "description": "Anstelle einer konventionellen Abschlussarbeit ermutigte uns meine Universität, in unserem letzten Jahr ein großes Capstone-Projekt in einem Bereich unserer Wahl zu übernehmen. Meine Anwendung, \"Scancycle\", indizierte jedes Produkt in einem Supermarkt und ermöglichte es dem Benutzer, durch Scannen des Barcodes mit seinem Telefon zu erfahren, wie man jeden Artikel recyceln kann!"
+      },
+      "personal": {
+        "sectionTitle": "PERSÖNLICHE PROJEKTE",
+        "title": "Lernen außerhalb der Arbeit",
+        "byline": "Ich bin immer auf der Suche nach neuen Wegen, um meine aktuellen Fähigkeiten zu erweitern und neues Wissen in Bereichen zu erlangen, die ich noch nicht erforscht habe.",
+        "description": "In meiner Freizeit helfe ich oft meinen Freunden und Kollegen bei verschiedenen Design- und Softwareentwicklungsprojekten. Jedes bietet seine eigenen Herausforderungen und erlaubt mir, über neue Probleme nachzudenken, auf die ich in meinem täglichen Job vielleicht nicht stoße."
+      },
+      "selector": {
+        "experience": "ERFAHRUNGEN",
+        "university": "UNIVERSITÄT",
+        "projects": "PROJEKTE"
       }
     }
   }
