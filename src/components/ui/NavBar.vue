@@ -21,7 +21,7 @@
         </a>
         <a
           class="nav-bar__item"
-          href=""
+          href="#experience"
         >
           {{ $t('components.navBar.links.experience') }}
         </a>

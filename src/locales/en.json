@@ -38,6 +38,31 @@
         "pre": "Want to see how this website was made?",
         "button": "Check out the source code"
       }
+    },
+    "experience": {
+      "valiant": {
+        "sectionTitle": "INDUSTRY EXPERIENCE",
+        "title": "Production app experience",
+        "byline": "Through my work at Valiant Finance I was able to interact with all areas of web application creation, from design & UI ideation to product management & development.",
+        "description": "The Valiant application provided me with brilliant exposure to a plethora of technologies hidden throughout the stack. From the Vue frontend, Ruby-on-Rails Backend and Salesforce CRM, my position required a strong understanding of every area to ensure the best decisions could be made for the business & the developers."
+      },
+      "university": {
+        "sectionTitle": "UNIVERSITY",
+        "title": "BA Technology & Innovation",
+        "byline": "I studied a modern degree that builds upon a conventional technology course by adding important elements of entrepreneurialism and product management.",
+        "description": "Instead of a conventional thesis, my university encouraged us to take on a major Capstone project in our final year in an area of our choosing. My application, \"Scancycle\", indexed every product within a supermarket and allowed a user to learn about the ways to recycle each item by scanning the barcode with their phone!"
+      },
+      "personal": {
+        "sectionTitle": "PERSONAL PROJECTS",
+        "title": "Learning outside of work",
+        "byline": "I am always looking for new ways to expand my current skillsets and pick up new knowledge in fields I haven't yet explored.",
+        "description": "In my free time I often assist my friends and peers with various design and software engineering projects. Each one provides their own challenges and allows me to think about new problems that I may not come across in my day-to-day job."
+      },
+      "selector": {
+        "experience": "EXPERIENCE",
+        "university": "UNIVERSITY",
+        "projects": "PROJECTS"
+      }
     }
   }
 }
