@@ -10,7 +10,7 @@
     },
     "footer": {
       "legal": "© Alex Gearing 2021",
-      "memo": "Wesbite handgemacht mit Liebe ❤️ (und Vue)"
+      "memo": "Website handgemacht mit Liebe ❤️ (und Vue)"
     }
   },
   "sections": {
@@ -26,7 +26,7 @@
     "product": {
       "sectionTitle": "PRODUKT",
       "title": "Coole Technik bauen",
-      "byline": "Meine jüngsten Erfahrungen stammen aus dem tiefen Eintauchen in die Bedürfnisse der Benutzer und des Unternehmens, das sie bedient, um etwas wirklich Einzigartiges zu entwickeln.",
+      "byline": "Meine jüngsten Erfahrungen stammen aus dem tiefen Eintauchen in die Bedürfnisse der Benutzer und des Unternehmens, um etwas wirklich Einzigartiges zu entwickeln.",
       "description": "Ich habe es wirklich genossen, Lösungen für komplexe und komplizierte Probleme zu erforschen und gleichzeitig einen Hintergrund mitzubringen, der sich auf die technische Umsetzung konzentriert, um den Umfang und die Durchführbarkeit innerhalb der Grenzen einer Webanwendung korrekt verwalten zu können."
     },
     "code": {
