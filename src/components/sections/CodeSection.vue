@@ -1,9 +1,9 @@
 <template>
   <div
-    id="development"
     class="code-section"
   >
     <v-section
+      id="development"
       ref="animate"
       :text-width="50"
       class="code-section__content"

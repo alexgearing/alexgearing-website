@@ -1,9 +1,9 @@
 <template>
   <div
-    id="experience"
     class="experience-section"
   >
     <v-section
+      id="experience"
       ref="animate"
       class="experience-section__content"
     >

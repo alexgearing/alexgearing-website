@@ -1,9 +1,9 @@
 <template>
   <div
-    id="product"
     class="product-section"
   >
     <v-section
+      id="product"
       ref="animate"
       has-image-on-left
       class="product-section__content"
