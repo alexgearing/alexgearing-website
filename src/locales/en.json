@@ -9,7 +9,7 @@
       "languageSwitcher": "Language switcher..."
     },
     "footer": {
-      "legal": "© Alex Gearing 2021",
+      "legal": "© Alex Gearing 2023",
       "memo": "Website hand-made with love ❤️ (and Vue)"
     }
   },
@@ -19,8 +19,7 @@
       "iAm": "I'm",
       "byline": "I am a Product Manager with a background in web design and software engineering.",
       "actions": {
-        "contact": "Get in touch",
-        "downloadCV": "Download my CV"
+        "contact": "Get in touch"
       }
     },
     "product": {

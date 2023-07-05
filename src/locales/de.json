@@ -9,7 +9,7 @@
       "languageSwitcher": "Sprachumschalter..."
     },
     "footer": {
-      "legal": "© Alex Gearing 2021",
+      "legal": "© Alex Gearing 2023",
       "memo": "Website handgemacht mit Liebe ❤️ (und Vue)"
     }
   },
@@ -19,8 +19,7 @@
       "iAm": "Ich bin",
       "byline": "Ich bin ein Produktmanager mit einem Hintergrund in Webdesign und Softwareentwicklung.",
       "actions": {
-        "contact": "Kontaktieren Sie mich",
-        "downloadCV": "Meinen Lebenslauf herunterladen"
+        "contact": "Kontaktieren Sie mich"
       }
     },
     "product": {

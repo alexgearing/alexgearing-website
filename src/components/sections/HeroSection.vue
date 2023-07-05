@@ -21,14 +21,8 @@
             >
               {{ $t('sections.hero.actions.contact') }}
             </button>
-            <button
-              class="button button--secondary"
-              @click.prevent="handleCVDownloadClick"
-            >
-              {{ $t('sections.hero.actions.downloadCV') }}
-            </button>
             <a
-              class="hero-section__introduction-actions-linkedin--wrapper"
+              class="button hero-section__introduction-actions-linkedin--wrapper"
               target="_blank"
               href="https://www.linkedin.com/in/alexgearing/"
             >
@@ -67,11 +61,8 @@ export default {
   components: { AnimatedLogo },
 
   methods: {
-    handleCVDownloadClick () {
-      window.open('/alex-gearing--resume.pdf')
-    },
     handleGetInTouchClick () {
-      window.location.href = 'mailto:alexmgearing@gmail.com'
+      window.location.href = 'mailto:hello@alexgearing.com'
     },
   },
 }

@@ -249,7 +249,7 @@ export default {
   }
 }
 
-/deep/ .text-editor {
+::v-deep .text-editor {
   &--red { color: #FF6774 }
   &--green { color: #8DEB81 }
   &--blue { color: #6BFFFF }

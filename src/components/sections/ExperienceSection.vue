@@ -201,7 +201,7 @@ export default {
 
   &__content {
     z-index: 200;
-    /deep/ .v-section__content {
+    ::v-deep .v-section__content {
       background-color: #FFFFFF;
       border-radius: 64px;
     }
